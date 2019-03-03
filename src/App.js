@@ -10,6 +10,11 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>Coming soon ...</p>
           <p>(Maybe)</p>
+          <p>
+            <a href='https://travis-ci.org/icecreamhead/joshcooke.dev'>
+              <img src='https://travis-ci.org/icecreamhead/joshcooke.dev.svg?branch=master' alt='Travis CI Build Status'/>
+            </a>
+          </p>
         </header>
       </div>
     );
