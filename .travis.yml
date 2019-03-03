@@ -11,8 +11,8 @@ node_js:
 #    - g++-4.8
 cache: yarn
 script:
-- yarn test
-- yarn build --release
+- npm test
+- npm install
 
 after_success:
   - ./push.sh
